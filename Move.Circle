@@ -12,7 +12,7 @@ class ShapeAttributes:
 class Circle:
     
     def __init__(self):
-        self.radius = 10
+        self.radius = 7
         self.center_point = (100, 100)
         
     def update_x(self, shift_x):
@@ -36,7 +36,7 @@ class Character:
         "down": 40
     }
     
-    move_dist = 4
+    move_dist = 7
     vel = [1, 0]
 
     def __init__(self):
